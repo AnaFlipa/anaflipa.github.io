@@ -1393,28 +1393,28 @@ p.social a i {
   line-height: 40px;
 }
 p.social a.facebook {
-  background-color: #4460ae;
-  border-color: #4460ae;
+  background-color: #379392;
+  border-color: #379392;
 }
 p.social a.gplus {
-  background-color: #c21f25;
-  border-color: #c21f25;
+  background-color: #379392;
+  border-color: #379392;
 }
 p.social a.twitter {
-  background-color: #3cf;
-  border-color: #3cf;
+  background-color: #379392;
+  border-color: #379392;
 }
 p.social a.instagram {
-  background-color: #cd4378;
-  border-color: #cd4378;
+  background-color: #379392;
+  border-color: #379392;
 }
-p.social a.email {
-  background-color: #4a7f45;
-  border-color: #4a7f45;
+p.social a.behance {
+  background-color: #379392;
+  border-color: #379392;
 }
-p.social a.link {
-  background-color: #871AFF;
-  border-color: #871AFF;
+p.social a.linkedin {
+  background-color: #379392;
+  border-color: #379392;
 }
 p.social.social--outline a {
   background: transparent;
@@ -1435,11 +1435,11 @@ p.social.social--outline a.instagram {
   color: #cd4378;
   border-color: #cd4378;
 }
-p.social.social--outline a.email {
+p.social.social--outline a.behance {
   color: #4a7f45;
   border-color: #4a7f45;
 }
-p.social.social--outline a.link {
+p.social.social--outline a.linkedin {
   color: #871AFF;
   border-color: #871AFF;
 }
