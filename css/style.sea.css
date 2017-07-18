@@ -228,6 +228,17 @@ ABOUT
 =====================
 
 */
+
+.dates {
+  font-size: 12px;
+}
+
+.well{
+background-color: transparent;
+font-size: 18px;
+}
+
+
 .progress-title {
   text-align: left;
   font-weight: 700;
@@ -312,6 +323,7 @@ CUSTOMERS
   margin-bottom: 10px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+  
 }
 .customer img:hover {
   -webkit-filter: grayscale(0);
@@ -1184,9 +1196,7 @@ label {
 
 
 
-.well{
-background-color: transparent;
-}
+
 
 
 
