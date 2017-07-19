@@ -236,6 +236,8 @@ ABOUT
 .well{
 background-color: transparent;
 font-size: 18px;
+width: 100%;
+
 }
 
 
@@ -1441,6 +1443,10 @@ p.social a.linkedin {
   background-color: #379392;
   border-color: #379392;
 }
+p.social a.youtube {
+  background-color: #379392;
+  border-color: #379392;
+}
 p.social.social--outline a {
   background: transparent;
 }
@@ -1465,6 +1471,10 @@ p.social.social--outline a.behance {
   border-color: #4a7f45;
 }
 p.social.social--outline a.linkedin {
+  color: #871AFF;
+  border-color: #871AFF;
+}
+p.social.social--outline a.youtube {
   color: #871AFF;
   border-color: #871AFF;
 }
