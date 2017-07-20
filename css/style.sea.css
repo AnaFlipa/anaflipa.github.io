@@ -237,10 +237,11 @@ ABOUT
 background-color: transparent;
 font-size: 18px;
 width: 100%;
-
 }
 
-
+.well.do {
+  padding: 12px;
+}
 .progress-title {
   text-align: left;
   font-weight: 700;
