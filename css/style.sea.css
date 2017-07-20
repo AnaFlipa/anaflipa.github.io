@@ -228,6 +228,14 @@ ABOUT
 =====================
 
 */
+.divider {
+  height: 1px;
+  width:100%;
+  display:block; /* for use on default inline elements like span */
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
 
 .dates {
   font-size: 12px;
@@ -240,7 +248,9 @@ width: 100%;
 }
 
 .well.do {
-  padding: 12px;
+  padding: 16px;
+  text-align: center;
+  font-size: 15px;
 }
 .progress-title {
   text-align: left;
