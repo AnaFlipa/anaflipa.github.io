@@ -221,6 +221,28 @@ PORTFOLIO
 =====================
 
 */
+.carousel-indicators .active{
+  background-color: black;
+  border:1px solid gray;
+  
+}
+
+.carousel-indicators{
+  background-color: gray;
+  width: 100%;
+}
+
+
+
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: -50px;
+    width: 100%;
+    color: black;
+}
+
+
 
 
 .containerportfolio {
@@ -238,18 +260,18 @@ PORTFOLIO
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.5;
+  opacity: 0;
   transition: .5s ease;
   background-color: white;
   
 }
 
 .containerportfolio:hover .overlayportfolio {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .textportfolio {
-  color: white;
+  color: #379392;
   opacity: 100%;
   font-size: 20px;
   position: absolute;
@@ -257,9 +279,33 @@ PORTFOLIO
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
 
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
 
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
 
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
 
 /*
 
