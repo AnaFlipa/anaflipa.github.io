@@ -238,6 +238,7 @@ background-color: transparent;
   
   position: absolute;
   text-align: center;
+  bottom:-50px;
 }
 
 
@@ -249,7 +250,7 @@ background-color: transparent;
 
 ol, ul {
     margin-top: 0;
-    margin-bottom: -50px;
+    
     width: 100%;
     color: black;
 }
