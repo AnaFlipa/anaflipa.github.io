@@ -222,15 +222,25 @@ PORTFOLIO
 
 */
 .carousel-indicators .active{
-  background-color: black;
-  border:1px solid gray;
+  background-color: #379392;
+  border:1px solid #379392;
   
 }
 
-.carousel-indicators{
-  background-color: gray;
-  width: 100%;
+.carousel-indicators li {
+background-color: transparent;
+  border:1px solid #379392;
+
 }
+
+.carousel-indicators{
+  
+  
+  position: absolute;
+  text-align: center;
+}
+
+
 
 
 
@@ -284,26 +294,26 @@ ol, ul {
 .filter-button
 {
     font-size: 18px;
-    border: 1px solid #42B32F;
+    border: 1px solid #379392;
     border-radius: 5px;
     text-align: center;
-    color: #42B32F;
+    color: #379392;
     margin-bottom: 30px;
 
 }
 .filter-button:hover
 {
     font-size: 18px;
-    border: 1px solid #42B32F;
+    border: 1px solid #379392;
     border-radius: 5px;
     text-align: center;
     color: #ffffff;
-    background-color: #42B32F;
+    background-color: #379392;
 
 }
 .btn-default:active .filter-button:active
 {
-    background-color: #42B32F;
+    background-color: #379392;
     color: white;
 }
 
