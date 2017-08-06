@@ -446,6 +446,14 @@ CUSTOMERS
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
 }
+
+
+section.background-gray-lightest {
+    background: #f7f7f7;
+    border-top: solid 1px #eeeeee;
+    border-bottom: solid 1px #eeeeee;
+    margin-top: 70px;
+    }
 /*
 
 =====================
@@ -1592,4 +1600,13 @@ p.social.social--outline a.linkedin {
 p.social.social--outline a.youtube {
   color: #871AFF;
   border-color: #871AFF;
+}
+
+
+
+
+.iconsfafas {
+  color: #379392;
+  border-color: #379392;
+  font-size: 3em;
 }
