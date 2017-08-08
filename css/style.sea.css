@@ -512,6 +512,11 @@ a:active {
 .ekko-lightbox .modal-footer {
   text-align: left;
 }
+
+.paddingtop{
+  padding-top: 20px;
+}
+
 .no-padding-top {
   padding-top: 0;
 }

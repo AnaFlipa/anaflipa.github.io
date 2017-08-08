@@ -43,12 +43,12 @@ $(document).ready(function () {
 
 // POPUP
 
-$.notify({
+//$.notify({
 	// options
-	icon: 'glyphicon glyphicon-warning-sign',
+    icon: 'glyphicon glyphicon-warning-sign',
+    img: 'img/new.png',
 	title: 'Bootstrap notify',
 	message: 'Turning standard Bootstrap alerts into "notify" like notifications',
-	url: 'https://github.com/mouse0270/bootstrap-notify',
 	target: '_blank'
 },{
 	// settings
