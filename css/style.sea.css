@@ -683,7 +683,13 @@ STYLE SWITCHER FOR DEMO
   margin-bottom: 0;
   border-top: none;
   border-bottom: none;
+
 }
+
+.nav {
+      background: rgba(243, 243, 243, 0.46);
+}
+    
 @media (min-width: 768px) {
   .navbar {
     border-radius: 0;
