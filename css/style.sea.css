@@ -29,6 +29,24 @@ section.background-gray-lightest {
   border-top: solid 1px #eeeeee;
   border-bottom: solid 1px #eeeeee;
 }
+
+section.background-blue-lighter {
+  background: #eeeeee;
+    border-top: solid 1px #eeeeee;
+  border-bottom: solid 1px #eeeeee;
+}
+section.background-blue-lightest {
+  background: #379392;
+    
+  margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+
+
+
+
+
 .italic {
   font-style: italic;
   font-family: "Georgia", "Times New Roman", Times, serif;
@@ -37,6 +55,7 @@ section.background-gray-lightest {
   text-align: left;
   margin-bottom: 40px;
 }
+
 .heading:after {
   content: " ";
   display: block;
@@ -44,6 +63,20 @@ section.background-gray-lightest {
   height: 2px;
   margin: 20px 0 20px;
   background: #379392;
+}
+.headingwhite {
+  text-align: left;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.headingwhite:after {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 2px;
+  margin: 20px 0 20px;
+  background: #fff;
 }
 @media (min-width: 1200px) {
   h1.heading {
@@ -68,6 +101,7 @@ section.background-gray-lightest {
 .margin-bottom--big {
   margin-bottom: 60px !important;
 }
+
 a,
 button {
   -webkit-transition: all 0.2s ease-out;
@@ -86,6 +120,11 @@ button i.fa {
 }
 .accent {
   color: #379392;
+}
+
+.acv {
+  color: #fff;
+  font-weight: bold;
 }
 .text-uppercase {
   text-transform: uppercase;
@@ -214,10 +253,15 @@ INTRO
   }
 }
 
-
 .nav nav-pills {
   text-align: right;
 }
+
+
+
+
+
+
 
 /*
 
@@ -267,6 +311,8 @@ ol, ul {
   position: relative;
   width: 100%;
 }
+
+
 
 
 
@@ -344,6 +390,10 @@ ABOUT
 .dates {
   font-size: 12px;
 }
+.whiteletters {
+  color: #fff;
+}
+
 
 .well{
 background-color: transparent;
@@ -361,12 +411,12 @@ width: 100%;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #999999;
+  color: #e3e3e3;
   font-size: 12px;
 }
 .progress-bar-skill1 {
   background-color: #d1d1d1;
-  background-color: #69c7c6;
+  background-color: #1a403f;
 }
 .progress-striped .progress-bar-skill1 {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -378,7 +428,7 @@ width: 100%;
 }
 .progress-bar-skill2 {
   background-color: #c8c7c7;
-  background-color: #57c0bf;
+  background-color: #153131;
 }
 .progress-striped .progress-bar-skill2 {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -390,7 +440,7 @@ width: 100%;
 }
 .progress-bar-skill3 {
   background-color: #bdbdbd;
-  background-color: #45b8b7;
+  background-color: #112525;
 }
 .progress-striped .progress-bar-skill3 {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -402,7 +452,7 @@ width: 100%;
 }
 .progress-bar-skill4 {
   background-color: #b3b2b2;
-  background-color: #3ea6a4;
+  background-color: #132525;
 }
 .progress-striped .progress-bar-skill4 {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -414,7 +464,7 @@ width: 100%;
 }
 .progress-bar-skill5 {
   background-color: #a9a8a8;
-  background-color: #379392;
+  background-color: #182727;
 }
 .progress-striped .progress-bar-skill5 {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -689,7 +739,7 @@ STYLE SWITCHER FOR DEMO
 .nav {
       background: rgba(243, 243, 243, 0.46);
 }
-    
+
 @media (min-width: 768px) {
   .navbar {
     border-radius: 0;
