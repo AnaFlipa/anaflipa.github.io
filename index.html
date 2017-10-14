@@ -1,143 +1,197 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BRANDY</title>
+    <!-- Google Font -->
+    <link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
-  <title>Ana Alves - Multimedia Designer</title>
+    <!-- Font Awesome -->
 
-  <!-- meta -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="all,follow">
 
-  <!-- jQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <!-- Preloader -->
+    <link rel="stylesheet" href="css/preloader.css" type="text/css" media="screen, print"/>
 
-  <!-- Bootstrap notify -->
-  <script src="js/bootstrap-notify.min.js"></script>
+    <!-- Icon Font-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <!-- Animate CSS-->
+    <link rel="stylesheet" href="css/animate.css">
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Google fonts - Open Sans-->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,400italic">
 
-  <!-- Theme stylesheet-->
-  <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
-  <link rel="stylesheet" href="css/style.sea.css">
-  <!--<link rel="stylesheet" href="css/animate.css">-->
 
-  <!-- Tilt image stylesheet-->
-  <!--<link rel="stylesheet" href="css/pater.css">-->
-  <!--<link rel="stylesheet" href="css/normalize.css">-->
-  <!--<link rel="stylesheet" href="demo.css">-->
-  <!--<link rel="stylesheet" href="component.css">-->
-  <link rel="stylesheet" href="css/tilter.css">
+    <!-- Style -->
+    <link href="css/style.css" rel="stylesheet">
 
-  <!-- Google Maps API -->
-  <!--<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>-->
-  <!--<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;amp;sensor=false"></script>-->
-
-  <!-- Google Analytics -->
-  <!--<script src="js/google-analytics.js"></script>-->
-
-  <!-- Other javascript files -->
-  <!--<script src="js/jquery.cookie.js"></script>-->
-  <!--<script src="js/ekko-lightbox.js"></script>-->
-  <!--<script src="js/front.js"></script>-->
-  <!-- Tilt image stylesheet
-  <script src="js/anime.min.js"></script>
-  <script src="js/imagesloaded.pkgd.min.js"></script>
-  <script src="js/main1.js"></script>-->
-
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="favicon.png">
-
-  <!-- Custom Javascript -->
-  <script src="js/main.js"></script>
-
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="js/lte-ie7.js"></script>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
 </head>
 
 <body>
-
-  <ul class="nav nav-pills navbar-fixed-top ">
-    <li role="presentation" class="pull-right"><a href="#contact">Contact</a></li>
-    <li role="presentation" class="pull-right"><a href="#portfolio">Portfolio</a></li>
-    <li role="presentation" class="pull-right"><a href="#about">About</a></li>
-  </ul>
-
-
-  <section id="intro" class="text-intro no-padding-bottom">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-lg-10">
-          <h1>Hello!<br />I'm <span class="text-primary">Ana Alves</span>, an illustrator and multimedia <span class="text-primary">designer</span>            living in Porto, Portugal.</h1>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <br>
+                <!-- Preloader -->
+                <div id="preloader">
+                    <div id="status">&nbsp;</div>
+                </div>
 
 
 
-  <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ABOUT\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
-  <section id="about" class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <h2 class="heading">About me</h2>
-        </div>
-        <div class="col-sm-12">
-          <div class="row">
-            <div class="col-sm-6 text-left">
-              <img src="img/anaalves.jpg" alt="anaalves" class="image img-responsive" width="330">
-              <!-- Tilt Image-
-              <section class="content content--c8">
-                <a href="#" class="tilter tilter--8">
-                  <figure class="tilter__figure">
-                    <img class="tilter__image" src="img/anaalves.jpg" alt="ana alves" />
-                    <div class="tilter__deco tilter__deco--shine">
-                      <div></div>
+
+    <header id="HOME" style="background-position: 50% -125px;">
+	        <div class="section_overlay">
+	            <nav class="navbar navbar-default navbar-fixed-top">
+	              <div class="container">
+	                <!-- Brand and toggle get grouped for better mobile display -->
+	                <div class="navbar-header">
+	                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                  </button>
+	                  <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+	                </div>
+
+	                <!-- Collect the nav links, forms, and other content for toggling -->
+	                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	                  <ul class="nav navbar-nav navbar-right">
+	                    <li><a href="#HOME">Home</a></li>
+	                    <li><a href="#SERVICE">Services</a></li>
+	                    <li><a href="#ABOUT">About</a></li>
+	                    <li><a href="#TESTIMONIAL">Testimonial</a></li>
+	                    <li><a href="#WORK">Work</a></li>
+	                    <li><a href="#CONTACT">Contact</a></li>
+	                  </ul>
+	                </div><!-- /.navbar-collapse -->
+	              </div><!-- /.container -->
+	            </nav> 
+
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-md-12 text-center">
+	                        <div class="home_text wow fadeInUp animated">
+	                            <h2>it’s Ana Alves</h2>
+	                            <p>a multimedia designer living in Porto</p>
+	                            <img src="images/shape.png" alt="">                        
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-md-12 text-center">
+	                        <div class="scroll_down">
+                            <a href="#SERVICE"><img src="images/scroll.png" alt=""></a>
+	                            <h4>Scroll Down</h4>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>            
+	        </div>  
+	    </section>         
+    </header>
+
+
+    <section class="services" id="SERVICE">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <div class="single_service wow fadeInUp" data-wow-delay="1s">
+                        <i class="icon-pencil"></i>
+                        <h2>Design</h2>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
                     </div>
-                    <div class="tilter__deco tilter__deco--overlay"></div>
-                    <figcaption class="tilter__caption">
-                      <h3 class="tilter__title">Tanya Bondesta</h3>
-                      <p class="tilter__description">Toronto</p>
-                    </figcaption>
-                    <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
-                      <path d="M20.5,20.5h260v375h-260V20.5z" />
-                    </svg>
-                  </figure>
-                </a>
-              </section>-->
-              <!--<a href="#" class="tilter tilter--2">
-                <figure class="tilter__figure">
-                  <img class="tilter__image" src="img/anaalves.jpg" alt="img03" width="330" />
-                  <div class="tilter__deco tilter__deco--shine">
-                    <div></div>
-                  </div>
-                  <div class="tilter__deco tilter__deco--overlay"></div>
-                  <figcaption class="tilter__caption">
-                    <h3 class="tilter__title">Helen Portland</h3>
-                    <p class="tilter__description">Seattle</p>
-                  </figcaption>
-                  <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
-                    <path d="M20.5,20.5h260v375h-260V20.5z" />
-                  </svg>
-                </figure>
-              </a>-->
-
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="single_service wow fadeInUp" data-wow-delay="2s">
+                        <i class="icon-gears"></i>
+                        <h2>Development</h2>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="single_service wow fadeInUp" data-wow-delay="3s">
+                        <i class="icon-camera"></i>
+                        <h2>Photography</h2>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="single_service wow fadeInUp" data-wow-delay="4s">
+                        <i class="icon-magnifying-glass"></i>
+                        <h2>Seo</h2>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </section>
+    <section class="about_us_area" id="ABOUT">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="about_title">
+                        <h2>About Me</h2>
+                        <img src="images/shape.png" alt="">
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-6 text-left">
-              <p class="text-justify">I’m Ana and I’m a junior multimedia designer based on Oporto. I am highly motivated and multi-skilled with
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4  wow fadeInLeft animated">
+                    <div class="single_progress_bar">
+                        <h2>DESIGN - 90%</h2>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                            <span class="sr-only">60% Complete</span>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="single_progress_bar">
+                        <h2>DEVELOPMENT - 60%</h2>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            <span class="sr-only">60% Complete</span>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="single_progress_bar">
+                        <h2>MARKETING - 75%</h2>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                            <span class="sr-only">60% Complete</span>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="single_progress_bar">
+                        <h2>SEO - 95%</h2>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+                            <span class="sr-only">60% Complete</span>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4  wow fadeInRight animated">
+                    <p class="about_us_p">I’m Ana and I’m a junior multimedia designer based on Oporto. I am highly motivated and multi-skilled with
                 keen interest in design, photography and digital marketing.
                 <br> I have embraced multiple projects while I was studying, like <a href="https://www.behance.net/gallery/53293979/Coop-AR-2017"> Coop AR</a>,
                 <a href="https://www.behance.net/gallery/32773301/Downtown-80-2016">Downtown 80</a> and <a href="https://www.behance.net/gallery/18207099/Anamnese-2014">Anamnese</a>.
@@ -145,841 +199,296 @@
                 The goal is to teach entrepreuneurs how to apply transmedia storytelling to their communication strategy.
 
                 <br>In my free time I enjoy participating in game jams, hackathons and other events. I like to produce illustrations
-                and improving my photography skills. <br><br>
-
-                <h4>What I do</h4><br>
-
-                <div class="col-sm-4">
-                  <center><i class="fa fa-commenting-o iconsfafas" aria-hidden="true"></i></center><br>
-                  <p class="well well-sm do"> Digital Marketing</p>
+                and improving my photography skills. <br></p>
                 </div>
-                <div class="col-sm-4">
-                  <center><i class="fa fa-television iconsfafas" aria-hidden="true"></i></center><br>
-                  <p class="well well-sm do"> UX/UI Design </p>
+                <div class="col-md-4  wow fadeInRight animated">
+                    <p class="about_us_p">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
                 </div>
-                <div class="col-sm-4">
-                  <center><i class="fa fa-paint-brush iconsfafas" aria-hidden="true"></i></center><br>
-                  <p class="well well-sm do"> Illustration </p>
-                </div>
-                <br><br><br>
-
-                <!--<a href="http://www.patreon.com/anaalves"><img src="img/patreon.png" alt="Patreon" width="150"></a>-->
             </div>
-          </div>
         </div>
-      </div>
+    </section>
+    
+
+    <section class="testimonial text-center wow fadeInUp animated" id="TESTIMONIAL">
+        <div class="container">
+            <div class="icon">
+                <i class="icon-quote"></i>
+            </div>
+            <div class="owl-carousel">
+                <div class="single_testimonial text-center wow fadeInUp animated">
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores<br/> eos qui ratione voluptatem sequi nesciunt.</p>
+                    <h4>-JOHN DOE</h4>
+                </div>
+                <div class="single_testimonial text-center">
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius<br/> modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <h4>-JOHN SMITH</h4>
+                </div>
+            </div>            
+        </div>
+    </section>
+
+
+    <div class="fun_facts">
+    	<section class="header parallax home-parallax page" id="fun_facts" style="background-position: 50% -150px;">
+	        <div class="section_overlay">
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-md-6 wow fadeInLeft animated">
+	                        <div class="row">
+	                            <div class="col-md-4">
+	                                <div class="single_count">
+	                                    <i class="icon-toolbox"></i>
+	                                    <h3>300</h3>
+	                                    <p>Project Done</p>
+	                                </div>
+	                            </div>
+	                            <div class="col-md-4">
+	                                <div class="single_count">
+	                                    <i class="icon-clock"></i>
+	                                    <h3>1700+</h3>
+	                                    <p>Hours Worked</p>
+	                                </div>                            
+	                            </div>
+	                            <div class="col-md-4">
+	                                <div class="single_count">
+	                                    <i class="icon-trophy"></i>
+	                                    <h3>37</h3>
+	                                    <p>Awards Won</p>
+	                                </div>                            
+	                            </div>
+	                        </div>
+	                    </div>
+	                    <div class="col-md-5 col-md-offset-1 wow fadeInRight animated">
+	                        <div class="imac">
+	                            <img src="images/imac.png" alt="">
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>            
+	        </div>
+	    </section>    
     </div>
-  </section>
+    <section class="work_area" id="WORK">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="work_title  wow fadeInUp animated">
+                        <h1>Latest Works</h1>
+                        <img src="images/shape.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna <br> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 no_padding">
+                    <div class="single_image">
+                        <img src="images/w1.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>drawing</h2>
+                            <h4>with pencil colors</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 no_padding">
+                    <div class="single_image">
+                        <img src="images/w2.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>drawing</h2>
+                            <h4>with pencil colors</h4>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="col-md-4 no_padding">
+                    <div class="single_image">
+                        <img src="images/w3.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>drawing</h2>
+                            <h4>with pencil colors</h4>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <div class="row pad_top">
+                <div class="col-md-4 no_padding">
+                    <div class="single_image">
+                        <img src="images/w4.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>drawing</h2>
+                            <h4>with pencil colors</h4>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="col-md-4 no_padding">
+                    <div class="single_image">
+                        <img src="images/w5.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>drawing</h2>
+                            <h4>with pencil colors</h4>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="col-md-4 no_padding">
+                    <div class="single_image last_padding">
+                        <img src="images/w6.jpg" alt="">
+                        <div class="image_overlay">
+                            <a href="">View Full Project</a>
+                            <h2>drawing</h2>
+                            <h4>with pencil colors</h4>
+                        </div>                        
+                    </div>
+                </div>
+            </div>           
+        </div>
+    </section>
+    <section class="call_to_action">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 wow fadeInLeft animated">
+                    <div class="left">
+                        <h2>LOOKING FOR EXCLUSIVE DIGITAL SERVICES?</h2>
+                        <p>Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. 
+                        Integer non dapibus diam, ac eleifend lectus.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-md-offset-1 wow fadeInRight animated">
+                    <div class="baton">
+	                    <a href="#CONTACT">
+	                        <button type="button" class="btn btn-primary cs-btn">Let's Talk</button>
+	                    </a>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="CONTACT">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="contact_title  wow fadeInUp animated">
+                        <h1>get in touch</h1>
+                        <img src="images/shape.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna<br/> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3  wow fadeInLeft animated">
+                    <div class="single_contact_info">
+                        <h2>Call Me</h2>
+                        <p>+88 00 123 456 01</p>
+                    </div>
+                    <div class="single_contact_info">
+                        <h2>Email Me</h2>
+                        <p>Hello@example.com</p>
+                    </div>
+                    <div class="single_contact_info">
+                        <h2>Address</h2>
+                        <p>216 Street Address, Barisal, BD</p>
+                    </div>
+                </div>
+                <div class="col-md-9  wow fadeInRight animated">
+                    <form class="contact-form" action="">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                                <input type="email" class="form-control" id="email" placeholder="Email">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject">                                
+                            </div>
+                            <div class="col-md-6">
+                                <textarea class="form-control" id="message" rows="25" cols="10" placeholder="  Message Texts..."></textarea>
+                                <button type="button" class="btn btn-default submit-btn form_submit">SEND MESSAGE</button>                                
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="work-with   wow fadeInUp animated">
+                        <h3>looking forward to hearing from you!</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
-
-
-  <section class="section background-blue-lightest">
+<footer>
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <h2 class=" heading headingwhite">Curriculum</h2> <br>
-          <div class="col-sm-6">
-
-
-
-
-            <button data-toggle="collapse" data-target="#demo" class="well well-sm"> <b class="whiteletters">Education</b> </button>
-            <div id="demo" class="collapse">
-
-
-              <b class="whiteletters"> Master's Degree in  <a href="https://sigarra.up.pt/feup/pt/cur_geral.cur_view?pv_ano_lectivo=2016&pv_origem=CUR&pv_tipo_cur_sigla=M&pv_curso_id=732" class="acv">Multimedia</a> - Technologies, FEUP</b><br>
-              <p class="dates whiteletters"> from 2015 to 2017 </p>
-
-              <p class="dates whiteletters"> Some of the course units: Digital Games, Interactive Digital Systems, Multimodal Interfaces, Graphic Systems
-                and 3D Animation, Photography and Cinema, Web Technologies, Project Management Laboratory <br> <br> M.Sc.
-                dissertation: <a href="https://sigarra.up.pt/feup/pt/pub_geral.pub_view?pi_pub_base_id=204442" class="acv">“Transmedia Storytelling in B2B: the Case Study of StorySD”</a>                advised by Prof. Soraia Ferreira. Final classification: 18/20.</p>
-
-
-              <li role="presentation" class="divider"></li><br>
-
-              <b class="whiteletters"> Bachelor's Degree in <a href="https://sigarra.up.pt/fbaup/pt/cur_geral.cur_view?pv_ano_lectivo=2016&pv_origem=CUR&pv_tipo_cur_sigla=L&pv_curso_id=1315" class="acv">Plastic Arts</a> - Multimedia, FBAUP</b><br>
-              <p class="dates whiteletters"> from 2009 to 2014 </p>
-
-              <p class="dates whiteletters"> Some of the course units: Drawing, Digital Mediums, Contemporary Art, Art History, Photography and Cinema,
-                Aesthetics, Sound and Image, Video Practices, Animation, Scenography, Web Design <br> <br> </p>
-
-
-
-
-
-            </div>
-            <br>
-
-            <button data-toggle="collapse" data-target="#demo2" class="well well-sm"> <b class="whiteletters">Experience</b></button>
-            <div id="demo2" class="collapse">
-
-<b class="whiteletters"> Multimedia Designer at <a  href="https://zappysoftware.com"  class= "acv">Zappy Software</a></b><br>
-              <p class="dates whiteletters"> from September 2017 to present </p>
-              <p class="dates whiteletters"> </p>
-
-              <li role="presentation" class="divider"></li><br>
-              <b class="whiteletters"> Monitor at <a  href="https://universidadejunior.up.pt/atividades.php?a=modelacao-tridimensional-de-objetos"  class= "acv">Universidade Junior</a></b><br>
-              <p class="dates whiteletters"> from June 2016 to July 2016 </p>
-              <p class="dates whiteletters"> In the summer of 2016 I was one of the 4 monitors of "Oficina de Verão - Modelação tridimensional de objetos".
-                For one month we had to teach children from 12 to 14 yo how to use 3D software, by giving simple exercises
-                and encouraging them to make a project in the end of the day.</p>
-
-              <li role="presentation" class="divider"></li><br>
-
-              <b class="whiteletters"> Freelance Designer at <a href="https://www.facebook.com/pg/worlDevelopers" class="acv">worlDevelopers</a></b><br>
-              <p class="dates whiteletters"> from August 2015 to August 2016 </p>
-              <p class=" dates whiteletters"> Besides of the social networks used by the team of worlDevelopers, I also had the opportunity to help the development
-                ofthe brand CrewDNA by making their offical logo, flyers for their launch and their social media marketing.</p>
-
-              <li role="presentation" class="divider"></li><br>
-
-              <b class="whiteletters"> Creative at <a href="https://portodemagia.com" class="acv">Porto de Magia</a></b><br>
-              <p class="dates whiteletters"> from November 2013 to January 2015 </p>
-              <p class="dates whiteletters"> Porto de Magia is a traditional shop located in Porto, Portugal, specialized in selling music boxes for the
-                last 20 years. Besides managing the social networks and creating multimedia/graphic contents for the e-commerce
-                platform and social media, I was able to develop some skills like product photography and marketing strategies,
-                among others. I was also responsible for the creation of a new point of sale on Norteshopping at Matosinhos,
-                which was a huge success.</p>
-
-              <li role="presentation" class="divider"></li><br>
-
-              <h5 class="whiteletters"> Pro-Bono </h5><br>
-
-              <b class="whiteletters"> Graphic designer at <a href="https://up.ieee-pt.org/" class="acv">NuIEEE</a></b><br>
-              <p class="dates whiteletters"> from September 2016 to June 2017 </p>
-              <p class="dates whiteletters"> In this group I was able to do a workshop "Image Edition for Dummies" (the basics of Adobe Photoshop) and also
-                help in the making of "Member Spotlight", a weekly publication focused in a member of NuIEEE.</p>
-              <br>
-              <b class="whiteletters"> Co-founder and lead designer at <a href="https://web.fe.up.pt/~nemm/" class="acv">NEMM</a></b><br>
-              <p class="dates whiteletters"> from October 2015 to June 2017 </p>
-              <p class="dates whiteletters"> As one of the founders of NEMM I was able to create the logo and the website. As a member of this group, I
-                had the chance to cover some events at FEUP, like <a href="https://www.behance.net/gallery/40222233/CESG-2016"
-                  class="acv">CESG</a> and <a href="https://www.behance.net/gallery/53894751/MM-XX-2016">MM-XX</a>. </p>
-
-            </div>
-            <br>
-
-            <button data-toggle="collapse" data-target="#demo3" class="well well-sm"> <b class="whiteletters">Projects</b></button>
-            <div id="demo3" class="collapse">
-              <ul class="whiteletters">
-                <li> <a href="https://www.behance.net/gallery/53293979/Coop-AR-2017" class="acv"><b> Coop AR</b> </a>, 2017 </li>
-                <p class="dates whiteletters">This project was developed for a dissertation at the Faculty of Engineering of the University of Porto. CooP
-                  AR is a system that enables asynchronous collaboration between two users (e.g. between a mentor and an
-                  apprentice). I designed the mentor's interface.
-                </p>
-
-                <li> <a href="http://storysd.com" class="acv"><b> StorySD</b> </a>, 2017 </li>
-                <p class="dates whiteletters">This project was developed for my dissertation at the Faculty of Engineering of the University of Porto.
-                  Through multiple episodes, you may learn what's transmedia storytelling and how you can apply it to your
-                  communication strategy. I was responsible for the social networks management and content.
-                </p>
-
-
-                <li> <a href="https://fpbehindthecurtain.wordpress.com/" class="acv"><b> Future Places Citizen Lab: Behind the Curtain</b> </a>,
-                  2016 </li>
-                <p class="dates whiteletters">This citizen lab introduces to it’s participants the “Hero’s Journey”, aka, monomyth. This concept was first
-                  introduced by Joseph Campbell in 1949 and it’s still used in these days to create successful stories for
-                  movies, books, etc. With the support of a camera, the audience performed and recorded a story made by themselves
-                  regarding the previous concept. The result of this experience is a stopmotion video. </p>
-
-                <li> <a href="https://www.behance.net/gallery/32773301/Downtown-80-2016" class="acv"><b> Downtown 80</b> </a>,
-                  2016
-                </li>
-                <p class="dates whiteletters">This project was born at FEUP as a result of an assignment for the ”Multimedia Laboratory”, subject of the
-                  Master in Multimedia. Inspired by the book “Around the World in Eighty Days”, by Jules Verne, a new story
-                  has been made, using some of the original elements, just like the characters and the time. With this transmedia
-                  experience, users will interact both physically and virtually, while exploring Porto’s city centre and
-                  its local businesses </p>
-
-                <li> <a href="https://www.behance.net/gallery/9399147/Contaminacao-2013" class="acv"><b> From the Present to the Future</b> </a>,
-                  2013 </li>
-                <p class="dates whiteletters">The subway is an essential transport in big cities. Their stations, true works of architecture, are the starting
-                  point for some images that brings us to a fantastic underground world. </p>
-              </ul>
-            </div>
-
-          </div>
-          <div class="col-sm-6">
-
-            <button data-toggle="collapse" data-target="#demo5" class="well well-sm"> <b class="whiteletters">Exhibitions</b></button>
-            <div id="demo5" class="collapse">
-              <ul class="dates whiteletters">
-                <li> Collective Exhibition "Fotografia & Território", FEUP - 2017</li>
-                <li> Collective Exhibition "Mostra de Projectos MM-XX", Máus Hábitos - 2016</li>
-                <li> Collective Exhibition "sua sentença.", Museu da FBAUP - 2014</li>
-                <li> Collective Exhibition "Cada Cabeça,", Central Elétrica do Freixo - 2014</li>
-                <li>Collective Exhibition "Vende-se", Rua Formosa, 165 - 2014</li>
-                <li>Collective Exhibition "Contaminação", Galeria João Pedro Rodrigues - 2013</li>
-                <li> Collective Exhibition "Slowmotion", Casa da Cultura de Paranhos - 2009</li>
-              </ul>
-            </div>
-
-
-            <button data-toggle="collapse" data-target="#demo4" class="well well-sm"> <b class="whiteletters">Skills</b></button>
-            <div id="demo4" class="collapse">
-
-              <h5 class="whiteletters"> <b> Personal Skills</b></h5><br>
-
-              <div class="col-sm-4">
-                <p class="well well-sm do whiteletters"> Openminded</p>
-              </div>
-              <div class="col-sm-4">
-                <p class="well well-sm do whiteletters"> Selfmotivated </p>
-              </div>
-              <div class="col-sm-4">
-                <p class="well well-sm do whiteletters"> Helpful </p>
-              </div>
-
-
-
-              <b class="whiteletters"> Languages: </b><br>
-              <br>
-              <div class="col-sm-4 whiteletters">
-                <center>Portuguese <br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
-                    aria-hidden="true"></i>
-                  <br>
-                  <p class="dates">Native</p>
-                </center>
-              </div>
-
-              <div class="col-sm-4 whiteletters">
-                <center>English <br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o"
-                    aria-hidden="true"></i>
-                  <br>
-                  <p class="dates">Advanced </p>
-                </center>
-              </div>
-              <div class="col-sm-4 whiteletters">
-                <center>Spanish <br><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-                  <br>
-                  <p class="dates">Basic </p>
-                </center>
-              </div>
-              <br><br>
-              <br>
-              <br>
-              <li role="presentation" class="divider"></li><br>
-
-              <h5 class="whiteletters"> <b> Software Skills</b></h5><br>
-              <div class="skill-item">
-                <div class="progress-title whiteletters">Adobe Photoshop</div>
-                <div class="progress">
-                  <div role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;" class="progress-bar progress-bar-skill1"><span class="sr-only">90</span></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="footer_logo   wow fadeInUp animated">
+                        <img src="images/logo.png" alt="">
+                    </div>
                 </div>
-              </div>
-              <div class="skill-item">
-                <div class="progress-title whiteletters">Adobe Lightroom</div>
-                <div class="progress">
-                  <div role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;" class="progress-bar progress-bar-skill2"><span class="sr-only">50</span></div>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="progress-title whiteletters">Adobe Premiere</div>
-                <div class="progress">
-                  <div role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;" class="progress-bar progress-bar-skill3"><span class="sr-only">70</span></div>
-                </div>
-              </div>
-
-              <div class="skill-item">
-                <div class="progress-title whiteletters">HTML/CSS</div>
-                <div class="progress">
-                  <div role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;" class="progress-bar progress-bar-skill4"><span class="sr-only">50</span></div>
-                </div>
-              </div>
-              <br>
-              <p class="whiteletters"> <b>Others:</b> Adobe InDesign, Adobe Illustrator, Adobe XD, Wordpress, Bootstrap</p>
-
             </div>
-            <button data-toggle="collapse" data-target="#demo6" class="well well-sm"> <b class="whiteletters">Others</b></button>
-            <div id="demo6" class="collapse">
-              <div class="col-sm-6 whiteletters">
-                <center>
-                  <p class="whiteletters"> <b> Workshops</b></p>
-                </center>
-                <p class="whiteletters dates">
-                  <b>"Social Media Marketing Strategy"</b> by EDIT, 2015 <br><br>
-                  <b>"Cerveira Creative Camp"​</b> (Workshops with Vasco Mourão, Kirsten Lepore, LIKEarchitects, Penique
-                  Productions, Filmes da Mente) by Canal 180, 2012
-
-                </p>
-              </div>
-              <div class="col-sm-6 whiteletters">
-
-                <center>
-                  <p class="whiteletters"> <b> Courses</b></p>
-                </center>
-
-                <p class="dates whiteletters"> <b>"Certificado de Aptidão Pedagógica"</b>, License F621817/2015 </p>
-<br>
-
-                <center>
-                  <p class="whiteletters"> <b> Participation</b></p>
-                </center>
-<p class="dates whiteletters"> <b>"Hack for Good"</b> by Fundação Calouste Gulbenkian, Lisbon 2016 </p>
-<p class="dates whiteletters"> <b>"Game Jam no Museu"</b> by Porto Graphics, Porto 2017 </p>
-                <p class="dates whiteletters"> <b>"Invictvs Game Jam"</b> by Fabamaq, Porto 2017 </p>
-              </div>
-            </div>
-            <br><br>
-          </div>
-
-
-
-          <br>
-
-          <div class="col-sm-12">
-
-            <center>
-              <a href="resources/anaalves_cv.pdf" download="anaalves_cv"> <button type="button" class="btn btn-secondary">Download CV</button> </a>
-            </center>
-          </div>
-
-
-
-
         </div>
-      </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center   wow fadeInUp animated">
+                    <div class="social">
+                        <h2>Follow Me on Here</h2>
+                        <ul class="icon_list">
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href=""><i class="fa fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="copyright_text   wow fadeInUp animated">
+                        <p>&copy; brandy 2015.All Right Reserved By <a href="http://www.themeforest.net/user/thecodecafe"target="_blank">Code Cafe Team</a></p>
+                        <p>Made with love for creative people.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+</footer>
 
 
-    </div>
-  </section>
 
 
 
-  <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\PORTFOLIO\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
-  <section id="portfolio" class="no-padding-top">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="heading">Portfolio</h2>
-          <!--<p class="lead margin-bottom--big">You can make also image gallery with this section easily. </p>-->
-        </div>
-      </div>
-    </div>
 
-    <!-- CATEGORIAS -->
-    <div align="center">
-      <button class="btn btn-default filter-button" data-filter="all">All</button>
-      <button class="btn btn-default filter-button" data-filter="ux/ui">UX/UI Design</button>
-      <button class="btn btn-default filter-button" data-filter="illustration">Illustration</button>
-      <button class="btn btn-default filter-button" data-filter="photography">Photography</button>
-      <button class="btn btn-default filter-button" data-filter="design"> Design</button>
-      <button class="btn btn-default filter-button" data-filter="other"> Other</button>
-    </div>
 
-    <BR>
-    <!-- CARROSSEL -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
 
-      <div class="carousel-inner">
 
-        <!--SLIDE 1 -->
-        <div class="item active">
 
-          <!--abre fila -->
-          <div class="row no-space">
 
-            <!--coopar -->
-            <div class="col-sm-4 col-md-3 filter ux/ui">
-              <div class="box">
-                <div class="containerportfolio"> <img src="img/portfolio/coopar.jpg" alt="" class="img-responsive">
-                  <div class="overlayportfolio">
-                    <div class="textportfolio">
-                      <center><a href="https://www.behance.net/gallery/53293979/Coop-AR-2017">
-                        <b>Coop AR</b></a><br> UX/UI Design <br><br>
-                        <p class="dateportfolio">2017</p>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+<!-- =========================
+     SCRIPTS 
+============================== -->
 
-            <!--emma stone -->
-            <div class="col-sm-4 col-md-3 filter illustration">
-              <div class="box">
-                <div class="containerportfolio"> <img src="img/portfolio/emma.jpg" alt="" class="img-responsive">
-                  <div class="overlayportfolio">
-                    <div class="textportfolio">
-                      <a href="https://www.behance.net/gallery/53168369/Emma-Stone-Illustration-2017">
-                        <center><b>Emma Stone</b></a><br> Illustration <br><br>
-                      <p class="dateportfolio">2017</p>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
 
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/script.js"></script>
 
-            <!--identidades -->
-            <div class="col-sm-4 col-md-3 filter photography">
-              <div class="box">
-                <div class="containerportfolio"> <img src="img/portfolio/identities.jpg" alt="" class="img-responsive">
-                  <div class="overlayportfolio">
-                    <div class="textportfolio">
-                      <a href="https://www.behance.net/gallery/45993351/Identities-2016">
-                        <center><b>Identities</b></a><br> Photography <br><br>
-                      <p class="dateportfolio">2016</p>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            <!--fabulas -->
-            <div class="col-sm-4 col-md-3 filter photography">
-              <div class="box">
-                <div class="containerportfolio"> <img src="img/portfolio/fabulas.jpg" alt="" class="img-responsive">
-                  <div class="overlayportfolio">
-                    <div class="textportfolio">
-                      <a href="https://www.behance.net/gallery/53599909/Product-Photography-20152016">
-                        <center><b>Fábulas & Fantasia</b></a><br> Product Photography <br><br>
-                      <p class="dateportfolio">2015/2016</p>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--fecha fila -->
 
-
-          <!--abre fila -->
-          <div class="row no-space">
-            <!--mm-xx -->
-            <div class="col-sm-4 col-md-3 filter photography">
-              <div class="box">
-                <div class="containerportfolio"> <img src="img/portfolio/mm-xx.jpg" alt="" class="img-responsive">
-                  <div class="overlayportfolio">
-                    <div class="textportfolio">
-                      <a href="https://www.behance.net/gallery/53894751/MM-XX-2016">
-                        <center><b>MM-XX</b></a><br> Event Coverage <br><br>
-                      <p class="dateportfolio">2017</p>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--medctrl -->
-            <div class="col-sm-4 col-md-3 filter ux/ui">
-              <div class="box">
-                <div class="containerportfolio"> <img src="img/portfolio/medctrl.jpg" alt="" class="img-responsive">
-                  <div class="overlayportfolio">
-                    <div class="textportfolio">
-                      <a href="https://www.behance.net/gallery/42004609/MEDctrl-2016">
-                        <center><b>MEDctrl</b></a><br> UX/UI Design <br><br>
-                      <p class="dateportfolio">2016</p>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--flores -->
-            <div class="col-sm-4 col-md-3 filter illustration">
-              <div class="box">
-                <div class="containerportfolio"> <img src="img/portfolio/flowers.jpg" alt="" class="img-responsive">
-                  <div class="overlayportfolio">
-                    <div class="textportfolio">
-                      <a href="https://www.behance.net/gallery/42004609/MEDctrl-2016">
-                        <center><b>Flowers</b></a><br> Illustration <br><br>
-                      <p class="dateportfolio">2016</p>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--cesg -->
-            <div class="col-sm-4 col-md-3 filter photography">
-              <div class="box">
-                <div class="containerportfolio"> <img src="img/portfolio/cesg.jpg" alt="" class="img-responsive">
-                  <div class="overlayportfolio">
-                    <div class="textportfolio">
-                      <a href="https://www.behance.net/gallery/40222233/CESG-2016">
-                        <center><b>CESG</b></a><br> Event Coverage <br><br>
-                      <p class="dateportfolio">2016</p>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <!--fecha fila -->
-
-        </div>
-        <!--fecha o slide active -->
-        <!-- FIM SLIDE 1 -->
-
-
-
-        <!--SLIDE 2 -->
-        <div class="item ">
-
-          <div class="row no-space">
-            <!--fila 1-->
-
-            <!--francesca-->
-            <div class="col-sm-4 col-md-3 filter illustration">
-              <div class="box">
-                <div class="containerportfolio"> <img src="img/portfolio/francesca.jpg" alt="" class="img-responsive">
-                  <div class="overlayportfolio">
-                    <div class="textportfolio">
-                      <a href="https://www.behance.net/gallery/36565247/Mia-Christina-Diana-Francesca-and-Catherine">
-                        <center><b> Mix</b></a><br> Illustration <br><br>
-                      <p class="dateportfolio">2016</p>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--downtown-->
-            <div class="col-sm-4 col-md-3 filter design">
-              <div class="box">
-                <div class="containerportfolio"> <img src="img/portfolio/downtown.jpg" alt="" class="img-responsive">
-                  <div class="overlayportfolio">
-                    <div class="textportfolio">
-                      <a href="https://www.behance.net/gallery/32773301/Downtown-80-2016">
-                        <center><b> Downtown 80</b></a><br> Design <br><br>
-                      <p class="dateportfolio">2016</p>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--nemm-->
-            <div class="col-sm-4 col-md-3 filter design">
-              <div class="box">
-                <div class="containerportfolio"> <img src="img/portfolio/nemm.jpg" alt="" class="img-responsive">
-                  <div class="overlayportfolio">
-                    <div class="textportfolio">
-                      <a href="https://www.behance.net/gallery/32762737/NEMM-Logo-and-website-20152016">
-                        <center><b> NEMM</b></a><br> Design <br><br>
-                      <p class="dateportfolio">2016</p>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--secret room-->
-            <div class="col-sm-4 col-md-3 filter design">
-              <div class="box">
-                <div class="containerportfolio"> <img src="img/portfolio/secretroom.jpg" alt="" class="img-responsive">
-                  <div class="overlayportfolio">
-                    <div class="textportfolio">
-                      <a href="https://www.behance.net/gallery/36579025/Secret-Room-2015">
-                        <center><b> Secret Room</b></a><br> Game Design <br><br>
-                      <p class="dateportfolio">2015</p>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <!--fecha fila -->
-
-
-
-          <div class="row no-space">
-            <!--abre fila -->
-
-            <!--crewdna-->
-            <div class="col-sm-4 col-md-3 filter design">
-              <div class="box">
-                <div class="containerportfolio"> <img src="img/portfolio/crew.jpg" alt="" class="img-responsive">
-                  <div class="overlayportfolio">
-                    <div class="textportfolio">
-                      <a href="https://www.behance.net/gallery/29802879/CrewDNA-logo-2015">
-                        <center><b> CrewDNA</b></a><br>Graphic Design <br><br>
-                      <p class="dateportfolio">2015</p>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--tales-->
-            <div class="col-sm-4 col-md-3 filter illustration">
-              <div class="box">
-                <div class="containerportfolio"> <img src="img/portfolio/alice.jpg" alt="" class="img-responsive">
-                  <div class="overlayportfolio">
-                    <div class="textportfolio">
-                      <a href="https://www.behance.net/gallery/45017569/Tales">
-                        <center><b> Tales</b></a><br>Illustration <br><br>
-                      <p class="dateportfolio">2015</p>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-
-            <!--PM-->
-            <div class="col-sm-4 col-md-3 filter photography design">
-              <div class="box">
-                <div class="containerportfolio"> <img src="img/portfolio/pm.jpg" alt="" class="img-responsive">
-                  <div class="overlayportfolio">
-                    <div class="textportfolio">
-                      <a href="https://www.behance.net/gallery/18324039/Porto-de-Magia-2013-2014">
-                        <center><b> Porto de Magia </b></a><br>Photography & Design <br><br>
-                      <p class="dateportfolio">2013 - 2014</p>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-
-            <!--Anamnese-->
-            <div class="col-sm-4 col-md-3 filter other">
-              <div class="box">
-                <div class="containerportfolio"> <img src="img/portfolio/anamnese.jpg" alt="" class="img-responsive">
-                  <div class="overlayportfolio">
-                    <div class="textportfolio">
-                      <a href="https://www.behance.net/gallery/18207099/Anamnese-2014">
-                        <center><b> Anamnese </b></a><br> Installation <br><br>
-                      <p class="dateportfolio">2014</p>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-          </div>
-          <!--fecha fila -->
-
-        </div>
-        <!-- FIM SLIDE 2 -->
-
-
-        <!--SLIDE 3 -->
-        <div class="item ">
-          <!--abre fila -->
-          <div class="row no-space">
-
-
-            <!--From the Present to the Future-->
-            <div class="col-sm-4 col-md-3 filter photography">
-              <div class="box">
-                <div class="containerportfolio"> <img src="img/portfolio/backtothefuture.jpg" alt="" class="img-responsive">
-                  <div class="overlayportfolio">
-                    <div class="textportfolio">
-                      <a href="https://www.behance.net/gallery/9399147/From-the-Present-to-the-Future-2013">
-                        <center><b> From the Present to the Future </b></a><br> Photography <br><br>
-                      <p class="dateportfolio">2013</p>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <!--wrong-->
-            <div class="col-sm-4 col-md-3 filter photography">
-              <div class="box">
-                <div class="containerportfolio"> <img src="img/portfolio/wrong.jpg" alt="" class="img-responsive">
-                  <div class="overlayportfolio">
-                    <div class="textportfolio">
-                      <a href="https://www.behance.net/gallery/8675223/Wrong-Monuments-2010">
-                        <center><b> Wrong Monuments </b></a><br> Photography <br><br>
-                      <p class="dateportfolio">2010</p>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-
-          </div>
-          <!--fecha fila -->
-
-
-          <!--abre fila -->
-          <div class="row no-space">
-          </div>
-          <!--fecha fila -->
-        </div>
-
-
-      </div>
-    </div>
-
-
-
-
-
-
-  </section>
-
-
-
-
-
-
-
-
-  <!--\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ CUSTOMERS \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
-  <section id="customers" class="section background-gray-lightest">
-
-    <div class="container">
-      <h3 class="heading">I have worked with</h3> <br>
-      <div class="row">
-        <!--<div class="col-sm-4 col-md-2 col-xs-6">
-          <div class="customer"><img src="img/customers/crewdna.png" title="CrewDNA" data-placement="bottom" data-toggle="tooltip" alt="" class="img-responsive"></div>
-        </div>-->
-        <div class="col-sm-2 col-sm-offset-1">
-          <div class="customer"><img src="img/customers/cesg.png" title="CESG" data-placement="bottom" data-toggle="tooltip" alt="" class="img-responsive"></div>
-        </div>
-
-        <div class="col-sm-2">
-          <div class="customer"><img src="img/customers/crewdna.png" title="CrewDNA" data-placement="bottom" data-toggle="tooltip" alt="" class="img-responsive"></div>
-        </div>
-        <div class="col-sm-2">
-          <div class="customer"><img src="img/customers/feup.png" title="FEUP" data-placement="bottom" data-toggle="tooltip" alt="" class="img-responsive"></div>
-        </div>
-        <div class="col-sm-2">
-          <div class="customer"><img src="img/customers/fabulas.png" title="Fábulas & Fantasia" data-placement="bottom" data-toggle="tooltip" alt=""
-              class="img-responsive"></div>
-        </div>
-
-        <div class="col-sm-2">
-          <div class="customer"><img src="img/customers/portodemagia.png" title="Porto de Magia" data-placement="bottom" data-toggle="tooltip"
-              alt="" class="img-responsive"></div>
-        </div>
-
-
-        <!--
-        <div class="col-sm-4 col-md-2 col-xs-6">
-          <div class="customer"><img src="img/customers/feup.png" title="FEUP" data-placement="bottom" data-toggle="tooltip"
-              alt="" class="img-responsive"></div> -->
-      </div>
-    </div>
-    </div>
-  </section>
-
-
-
-  <!--\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ CONTACT\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
-  <section id="contact">
-    <div class="container clearfix">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="heading">Contact</h2>
-          <div class="row">
-            <!-- <div class="col-md-6">
-
-
-              <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-              <form id="contact-form" method="post" action="mailto:anaflipasa3@gmail.com" class="contact-form form" >
-                <div class="controls">
-                  <div class="row">
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <label for="name">Your firstname *</label>
-                        <input type="text" name="name" id="name" placeholder="Enter your firstname" required="required" class="form-control">
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <label for="surname">Your lastname </label>
-                        <input type="text" name="surname" id="surname" placeholder="Enter your  lastname" class="form-control">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="email">Your email *</label>
-                    <input type="email" name="email" id="email" placeholder="Enter your  email" required="required" class="form-control">
-                  </div>
-                  <div class="form-group">
-                    <label for="message">Your message for me *</label>
-                    <textarea rows="4" name="message" id="message" placeholder="Enter your message" required="required" class="form-control"></textarea>
-                  </div>
-                  <div class="text-center">
-                    <input type="submit" value="Send message" class="btn btn-primary btn-block">
-                  </div>
-                </div>
-              </form>
-            </div>-->
-            <div class="col-md-12">
-              <p>If you wish to contact me, please, feel free to do so! Just send an email to anaflipasa3@gmail.com .
-              </p>
-              <p>You can also follow me through multiple social media networks.</p> <br>
-
-
-
-              <p class="social">
-                <a href="https://www.facebook.com/anaflipa" title="" class="facebook"><i class="fa fa-facebook"></i></a>
-                <a href="https://twitter.com/AnaFlipa" title="" class="twitter"><i class="fa fa-twitter"></i></a>
-                <a href="https://www.instagram.com/anaflipasa/" title="" class="instagram"><i class="fa fa-instagram"></i></a>
-                <a href="https://www.behance.net/ana_alves" title="" class="behance"><i class="fa fa-behance"></i></a>
-                <a href="https://www.linkedin.com/in/anaflipasa/" title="" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                <a href="https://www.youtube.com/playlist?list=PLq0zOwzzgY8JVmqBNZxSz07x_4FzMINZq" title="" class="youtube"><i class="fa fa-youtube"></i></a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- map
-  <div id="map"></div> -->
-
-  <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\FOOTER\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
-  <footer class="footer">
-    <div class="footer__copyright">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <p>&copy;2017 Ana Alves</p>
-          </div>
-          <div class="col-md-6">
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
 
 </body>
 

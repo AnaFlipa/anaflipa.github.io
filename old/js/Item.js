@@ -16,5 +16,7 @@
 function Item(filter, image, link, name, filterDescription, date)
 {
     this.filter = filter;
+
+    
 }
 
