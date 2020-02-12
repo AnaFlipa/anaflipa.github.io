@@ -57,12 +57,12 @@ text-transform: uppercase;
 	color: #253373;
 }
 header{
-	background: url(../img/header_bg.jpg);
+	background: url(../images/header_bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
-@media only screen and (max-device-width: 1080px) {
+-@media only screen and (max-device-width: 480px) {
 	header{
 		background: url(../img/header_bg_mobile.png);
 		background-size: cover;
